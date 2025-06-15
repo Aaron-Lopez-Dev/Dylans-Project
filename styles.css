@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    align-content: center;
+}
+
+body{
+    width: 90vw;
+    margin: auto;
+    max-width: 1500px;
+}
+.nav{
+    text-align: center;
+    height: 40px;
+}
+.navButtons{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
