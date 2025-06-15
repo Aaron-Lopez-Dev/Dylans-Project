@@ -2,7 +2,6 @@
     margin: 0;
     box-sizing: border-box;
     align-content: center;
-    
 }
 
 body{
@@ -23,4 +22,10 @@ body{
 footer{
     margin-bottom: 20px;
 }
-
+.companyName{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style-type: disc ;
+}
