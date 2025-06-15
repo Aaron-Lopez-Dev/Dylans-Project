@@ -22,7 +22,7 @@ body{
 footer{
     margin-bottom: 20px;
 }
-.companyName{
+.spaceBetween{
     display: flex;
     justify-content: space-between;
 }
