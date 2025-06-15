@@ -3,12 +3,6 @@
     box-sizing: border-box;
     align-content: center;
 }
-
-body{
-    width: 90vw;
-    margin: auto;
-    max-width: 1500px;
-}
 .nav{
     text-align: center;
     height: 40px;
@@ -17,6 +11,20 @@ body{
     list-style: none;
     display: inline-block;
     margin-right: 20px;
+    padding: 5px 15px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+body{
+    width: 90vw;
+    margin: auto;
+    max-width: 1500px;
+}
+
+main{
+    top: 45px;
 }
 
 footer{
@@ -28,4 +36,14 @@ footer{
 }
 li{
     list-style-type: disc ;
+}
+
+@media screen and (max-width:900px){
+    h1{
+        padding-top: 15px;
+    }
+    .navButtons{
+        padding: 5px 8px;
+        margin-right: 10px;
+    }
 }
