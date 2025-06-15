@@ -3,6 +3,11 @@
     box-sizing: border-box;
     align-content: center;
 }
+
+.goalsHeading{
+    text-align: center;
+    padding-top: 10px;
+}
 .nav{
     text-align: center;
     height: 40px;
