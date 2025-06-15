@@ -22,10 +22,18 @@
     border-radius: 10px;
 }
 
+a{
+    text-decoration: none;
+}
+
 body{
     width: 90vw;
     margin: auto;
     max-width: 1500px;
+}
+
+h3{
+    margin-top: 40px;
 }
 
 main{
